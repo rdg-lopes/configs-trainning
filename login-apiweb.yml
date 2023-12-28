@@ -2,7 +2,8 @@
 server:
   port: 8181
  
-client:
+eureka: 
+  client:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
